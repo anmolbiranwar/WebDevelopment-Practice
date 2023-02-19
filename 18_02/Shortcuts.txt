@@ -1,0 +1,20 @@
+Ctrl+B :Side bar open/close
+Ctrl+D : Selects all the words and we can replace that words
+!+Enter : Gives html basic template
+ctrl +space/i :It gives recommended word or tag
+ctrl+n :New file create
+ctrl+w: close the file
+ctrl +Shift + t:Open recent file
+ctrl +Shift+n: New window open
+shift+ctrl+arrowa: for selecting words
+ctrl+o: file open
+ctrl+k+o: open folder
+ctrl+backspace: delete forward word
+ctrl+delete: delete backword word
+ctrl+z: undo
+ctrl+y: redo
+ctrl+arrows: for going backward and forward by words
+alt+shift: copy the line
+alt+arrow: for shifting line
+alt+z:word wrap
+lorem<numbers>: Gives random sentences
