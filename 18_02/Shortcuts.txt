@@ -18,3 +18,4 @@ alt+shift: copy the line
 alt+arrow: for shifting line
 alt+z:word wrap
 lorem<numbers>: Gives random sentences
+ctrl+/: comment
