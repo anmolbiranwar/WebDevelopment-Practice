@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Bar</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        ul{
+            list-style: none;
+        }
+        li{
+            width: 200px;
+            background-color: tomato;
+            color: white;
+            padding: 5px;
+            margin-bottom: 20px;
+            font-size: 25px;
+            border-radius: 20px;
+            transition: 2s;
+        }
+        li:hover{
+            background-color: black;-
+            color: white;
+            width: 230px;
+            font-size: 30px;
+            cursor: grab;
+            transition: 2s;
+        }
+    </style>
 </head>
 <body>
-    
+    <ul>
+        <li><span class="bi-house"></span>Home</li>
+        <li><span class="bi-bell"></span>Notifications</li>
+        <li><span class="bi-person"></span>Login</li>
+        <li><span class="bi-phone"></span>Contact</li>
+    </ul>
 </body>
 </html>
