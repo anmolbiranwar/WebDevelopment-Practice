@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+    <style>
+        input{
+            width: 200px;
+            height: 50px;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="MouseOver" onmouseover="mouseOver()">
+<input type="button" value="MouseOut" onmouseout="mouseOut()">
+<input type="button" value="MouseDown" onmousedown="mouseDown()">
+<input type="button" value="MouseUp" onmouseup="mouseUp()">
+<script>
+    function mouseOver(){
+        alert("This is a mouseover event.");
+    }
+    function mouseOut(){
+        alert("This is a mouseout event.");
+    }
+    function mouseDown(){
+        alert("This is a mousedown event.");
+    }
+    function mouseUp(){
+        alert("This is a mouseUp event.");
+    }
+</script>
+</body>
+</html>
