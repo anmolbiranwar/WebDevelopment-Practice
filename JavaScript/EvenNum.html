@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Operator</title>
+<script>
+        function VerifyClick(){
+            var txtEven=document.getElementById("txtEven").value;
+            var lblError=document.getElementById("lblError");
+            if(parseInt(txtEven)%2==0)
+            {
+                document.write("Verified Successfully..");
+            }else{
+                lblError.innerHTML="Not an Even Number".fontcolor('red');
+            }
+        }
+</script>
+    </head>
+    <body>
+        <dl>
+            <dt>Enter an Even Number:</dt>
+            <dd><input type="text" id="txtEven"><button onclick="VerifyClick()">Verify</button></dd>
+            <dd id="lblError"></dd>
+        </dl>
+    </body>
+</html>
