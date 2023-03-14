@@ -1,0 +1,48 @@
+body{
+    background-color: goldenrod;
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: yellow;
+}
+ul{
+    color: blue;
+}
+.hello{
+    background-color: blue;
+    color: white;
+}
+.special{
+    border: 10px solid rgb(170, 114, 10);
+    background-color: white;
+}
+.special::first-letter{
+    color: green;
+    font-size: 100px;
+}
+#name{
+    border: red 5px solid;
+    background-color: green;
+    margin-bottom: 10px;
+}
+label{
+    text-transform: uppercase;
+}
+#pwd{
+    border: red 5px solid;
+}
+a{
+    color: yellow;
+}
+input:checked{
+    margin-left: 50px;
+}
+h1:hover{
+    color: white;
+    border: 10px red solid;
+}
+a:visited{
+    color: yellow;
+}
