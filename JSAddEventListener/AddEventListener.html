@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combining two events</title>
+</head>
+<body>
+    <h1>Combining two events in JavaScript.</h1>
+    <script>
+        let h1=document.getElementsByTagName('h1')[0];
+
+        h1.addEventListener('click',()=>{
+            h1.innerText='Event-1 Click Event';
+            h1.style.color="blue";
+        });
+        h1.addEventListener('dblclick',()=>{
+            h1.innerText="Event-2 on double click";
+            h1.style.color="Red";
+        });
+    </script>
+</body>
+</html>
