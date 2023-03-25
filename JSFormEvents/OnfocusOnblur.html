@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Events</title>
+</head>
+<body>
+    <form>
+        <label for="name">Enter Your Name:</label>
+        <input type="text" onfocus="focusEvent(this)" onblur="blurEvent(this)">
+    </form>
+    <script>
+        function focusEvent(event)
+        {
+            event.style.background="lightblue";
+        }
+        function blurEvent(event)
+        {
+            event.style.background="yellow";
+        }
+    </script>
+</body>
+</html>
