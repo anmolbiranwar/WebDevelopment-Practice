@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Netflix | Home</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <style>
+            body{
+                background-image: url("netflixPage.jpg");
+                background-size: cover;
+                color: white;
+            }
+            .backcolor{
+                width: 100%;
+                height: 700px;
+                background-color: rgba(0, 0, 0, 0.5);
+                /* background-image: radial-gradient(rgba(255,255,255,0.5),rgba(0,0,0,0.5)); */
+            }
+            .title{
+                font-size: 35px;
+                color: red;
+                text-shadow: 2px 2px 2px white;
+                font-family: Arial;
+                font-weight: bold;
+            }
+            .main-title{
+                font-family: Arial;
+                font-size: 50px;
+                font-weight: bold;
+                width: 600px;
+            }
+            .main-subtitle{
+                font-family: Arial;
+                font-size: 30px;
+            }
+            .register-title{
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="backcolor">
+            <header class="d-flex justify-content-between p-3 ">
+                <div class="title">
+                    NETFLIX
+                </div>
+                <div>
+                    <div class="d-flex">
+                        <div class="dropdown me-2">
+                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+                                <span class="bi bi-globe"></span>
+                                Language
+                            </button>
+                            <div class="dropdown-menu collapse">
+                                <div class="dropdown-item">
+                                    <span>English</span>
+                                </div>
+                                <div class="dropdown-item">
+                                    <a href="#"><span>हिंदी</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-danger">
+                            Signin
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <section class="d-flex justify-content-center align-items-center text-center" style="height: 400px;">
+                <div>
+                    <p class="main-title">Unlimited movies, TV shows and more.</p>
+                    <p class="main-subtitle">Watch anywhere. Cancel anytime.</p>
+                    <div>
+                        <p class="register-title">Ready to watch? Enter your email to create or restart your membership.</p>
+                        <div class="input-group input-group-lg">
+                            <input type="email" class="form-control" placeholder="Your email address">
+                            <button class="btn btn-danger">
+                                Get Started
+                                <span class="bi bi-chevron-right"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <main>
+                <div>
+                    
+                </div>
+            </main>
+        </div>
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
