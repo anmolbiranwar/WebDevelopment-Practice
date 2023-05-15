@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript by id</title>
+        <script>
+            function bodyloady(){
+                document.getElementById("pic").src="../";
+                document.getElementById("btnRegister").value="Register";
+                document.getElementById("btnLogin").value="Login";
+            }
+        </script>
+    </head>
+    <body onload="bodyloady()">
+        <div>
+            <img width="100" height="100" border="1" name="pic" id="pic">
+        </div>
+        <div>
+            <form name="frmRegister">
+                <h2>Register</h2>
+                Email:
+                <input type="email">
+                <input type="button" id="btnRegister" name="btnRegister">
+            </form>
+        </div>
+        <div>
+            <form name="frmLogin">
+                <h2>Login</h2>
+                Mobile:
+                <input type="text">
+                <input type="button" id="btnLogin" name="btnLogin">
+
+            </form>
+        </div>
+
+    </body>
+</html>
