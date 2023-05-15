@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript DOM Hierarchy</title>
+        <script>
+            function bodyloady(){
+                window.document.images[0].src="";
+                window.document.forms[0].elements[1].value="Register";
+                window.document.forms[1].elements[1].value="Login";
+            }
+        </script>
+    </head>
+    <body onload="bodyloady()">
+        <div>
+            <img width="100" height="100" border="1">
+        </div>
+        <div>
+            <form>
+                <h2>Register</h2>
+                Email:
+                <input type="email">
+                <input type="button">
+            </form>
+        </div>
+        <div>
+            <form>
+                <h2>Login</h2>
+                Mobile:
+                <input type="text">
+                <input type="button">
+            </form>
+        </div>
+    </body>
+</html>
