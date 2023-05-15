@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript byName</title>
+        <script>
+            function bodyloady(){
+                option=document.getElementsByName("pay");
+                alert("Total number of payment methods:"+option.length);
+            }
+        </script>
+    </head>
+    <body onload="bodyloady()">
+        <fieldset>
+        <legend>Payment</legend>
+        <input type="radio" name="pay">Cash
+        <input type="radio" name="pay">UPI
+        <input type="radio" name="pay">Credit Card
+        <input type="radio" name="pay1">Debit Card     
+        </fieldset>
+    </body>
+</html>
