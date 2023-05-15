@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript by tagName</title>
+        <script>
+            function bodyloady(){
+                forms=document.getElementsByClassName("btnRegister");
+                alert("Total Number of Forms: "+forms.length);
+            }
+        </script>
+    </head>
+    <body onload="bodyloady()">
+        <p></p>
+        <div>
+            <img width="1200" name="pic" id="pic" height="200" border="5">
+        </div>
+        <div>
+            <form name="frmRegister">
+                <h2>Register</h2>
+                Email:
+                <input type="email">
+                <input type="button" id="btnRegister" class="btnRegister" name="btnRegister">
+            </form>
+        </div>
+        <div>
+            <form name="frmLogin">
+
+                <h2>Login</h2>
+                Mobile:
+                <input type="text">
+                <input type="button" id="btnLogin" name="btnLogin">
+            </form>
+        </div>
+
+    </body>
+</html>
