@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <h2>All Fields are Mandatory</h2>
+        <form class="" action="thankyou.html" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Name" required><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required><br>
+            <label for="age">Age</label>
+            <input type="text" id="age" name="age" placeholder="Enter Age" required>
+            <h3>Are You Interested In Dating</h3>
+            <label for="dat">Yes</label>
+            <input type="radio" id="dat" name="dating" value="">
+            <label for="dat1">No</label>
+            <input type="radio" id="dat1" name="dating" value="">
+            <h3>Your Expectations like:</h3>
+            <select class="" name="expe">
+                <option value="katrina">Katrina Kaif</option>
+                <option value="keerthy" selected>Keerthy Shetty</option>
+                <option value="rashmika">Rashmika Mandana</option>
+                <option value="shraddha">Shraddha Kapoor</option>
+            </select>
+            <h3>How many marraiage you want:</h3>
+            <select class="" name="nom">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+            </select>
+            <h3>Are You Heavy Alcoholic:</h3>
+            <input type="checkbox" name="alcoholic">YES
+            <input type="checkbox" name="alcoholic">NO
+            <input type="checkbox" name="alcoholic">Only On Weekends
+            <h3>Your Preference and Extra Information</h3>
+            <textarea name="pref" rows="8" cols="80"></textarea>
+            <input type="submit" name="" value="Register" >
+        </form>
+    </body>
+</html>
