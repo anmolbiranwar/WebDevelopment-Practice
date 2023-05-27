@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Input</title>
+    </head>
+    <body>
+        <h1>User Contact Form</h1>
+        <form action="target.html">
+            <label for="name">Enter Name:</label>
+            <input type="text" id="name" name="username" placeholder="Name to Contact" required>
+            <input type="submit" value="ClickToContact">
+            <h3>Are you Married:</h3>
+            <label for="ma">YES</label>
+            <input type="radio" id="ma" name="married" value="">
+            <label fpr="ma">NO</label>
+            <input type="radio" id="ma" name="married" value=""> 
+            <h3>Gender</h3>
+            <label for="m">MALE</label>
+            <input type="radio" id="m" name="gender" value="Male">
+            <label for="f">FEMALE</label>
+            <input type="radio" id="f" name="gender" value="Female">
+            <label for="t">TRANSGENDER</label>
+            <input type="radio" id="t" name="gender" value="Transgender">
+            <h3>Please Select Your Payment Mode:</h3>
+            <select name="pmode">
+                <option value="ccard">Credit Card</option>
+                <option value="dcard">Debit Card</option>
+                <option value="pcard">Paypal</option>
+                <option value="otransfer">Online Transfer</option>
+            </select>
+            <h2>Enter Your FeedBack:</h2>
+            <textarea name="feedback" rows="8" cols="80"></textarea>
+            <form>
+                <h2>Choose Your Known Language:</h2>
+                <input type="checkbox" name="languages" value="english" checked>English<br>
+                <input type="checkbox" name="languages" value="hindi">Hindi<br>
+                <input type="checkbox" name="languages" value="marathi">Marathi<br>
+                <input type="checkbox" name="languages" value="telugu">Telugu<br>
+            </form>
+        </form>
+    </body>
+</html> 
