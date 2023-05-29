@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Confirm Example</title>
+        <script>
+            function DeleteClick(){
+                flag=confirm("Delete Record\nRecord will be deleted permanently");
+                if(flag==true){
+                    alert("Record Deleted");
+                }else{
+                    alert("You canceled..");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="DeleteClick()">Delete</button>
+    </body>
+</html>
