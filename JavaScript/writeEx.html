@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document.write example</title>
+        <script>
+            function DeleteClick(){
+                flag=confirm("Delete Record\nRecord will be deleted permanently");
+                console.warn("Warning: Delete Clicked");
+                if(flag==true){
+                    document.write("<b><font color='red'>Record Deleted</font></b>")
+                }else{
+                    alert("You canceled.");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="DeleteClick()">Delete</button>
+    </body>
+</html>
